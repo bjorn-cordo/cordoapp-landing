@@ -20,9 +20,11 @@ export default function ComingSoon() {
       
       {/* Logo top left */}
       <div className="fixed top-0 left-0 right-0 z-50 bg-white/60 backdrop-blur-sm px-6 py-4 flex items-center gap-2">
-        <div className="w-10 h-10 bg-[#1a5cff] rounded-xl flex items-center justify-center shadow-lg">
-          <span className="text-white font-bold text-lg">C</span>
-        </div>
+        <img
+          src="/cordo-icon.png"
+          alt="Cordo"
+          className="w-10 h-10 rounded-xl shadow-lg"
+        />
         <span className="text-2xl font-bold text-gray-900">Cordo</span>
       </div>
 
