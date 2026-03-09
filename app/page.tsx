@@ -14,12 +14,12 @@ export default function ComingSoon() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-indigo-50 overflow-hidden relative">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-indigo-50 overflow-x-hidden relative">
       {/* Animated gradient blob */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-br from-blue-400/30 via-purple-400/30 to-indigo-400/30 rounded-full blur-3xl animate-pulse" />
       
       {/* Logo top left */}
-      <div className="fixed top-6 left-6 z-50 flex items-center gap-2">
+      <div className="fixed top-0 left-0 right-0 z-50 bg-white/60 backdrop-blur-sm px-6 py-4 flex items-center gap-2">
         <div className="w-10 h-10 bg-[#1a5cff] rounded-xl flex items-center justify-center shadow-lg">
           <span className="text-white font-bold text-lg">C</span>
         </div>
@@ -27,7 +27,7 @@ export default function ComingSoon() {
       </div>
 
       {/* Main content */}
-      <div className="relative z-10 min-h-screen flex flex-col items-center justify-center px-4 py-20">
+      <div className="relative z-10 min-h-screen flex flex-col items-center justify-center px-4 pt-32 pb-20">
         <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           
           {/* Left side - Text content */}
@@ -43,9 +43,11 @@ export default function ComingSoon() {
               <span className="text-[#1a5cff]">Dine regler.</span>
             </h1>
             
-            <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-xl">
-               Hold kontaktlisten på telefonen privat – Del telefonnummer og kontaktinfo i grupper. 
-              Når du går forlater gruppen, forsvinner infoen din fra de andre medlemmene i gruppen.
+            <p className="text-lg sm:text-xl text-gray-600 leading-relaxed max-w-xl">
+              Hold kontaktlisten på telefonen <strong className="text-gray-900">privat</strong> – Del
+              telefonnummer og kontaktinfo i <strong className="text-gray-900">grupper</strong>. Når du
+              forlater gruppen, <strong className="text-[#1a5cff]">forsvinner</strong> din kontaktinfo
+              fra de andre medlemmene i gruppen.
             </p>
 
             {/* Features list */}
