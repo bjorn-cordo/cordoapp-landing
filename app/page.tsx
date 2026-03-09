@@ -46,10 +46,7 @@ export default function ComingSoon() {
             </h1>
             
             <p className="text-lg sm:text-xl text-gray-600 leading-relaxed max-w-xl">
-              Hold kontaktlisten på telefonen <strong className="text-gray-900">privat</strong> – Del
-              telefonnummer og kontaktinfo i <strong className="text-gray-900">grupper</strong>. Når du
-              forlater gruppen, <strong className="text-[#1a5cff]">forsvinner</strong> din kontaktinfo
-              fra de andre medlemmene i gruppen.
+              Kontakter som lever kun i appen. Ikke synkronisert til telefonbok. Ikke arkivert i skyen. Forlater du en gruppe? Du slettes permanent fra alle servere og enheter.
             </p>
 
             {/* Features list */}
@@ -60,7 +57,7 @@ export default function ComingSoon() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <span className="text-gray-700 text-xs sm:text-xs">Clean exit – kontaktinfo forsvinner når du forlater gruppen</span>
+                <span className="text-gray-700 text-xs sm:text-xs">Clean exit – Din info slettes fra server OG andres enheter</span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
@@ -68,7 +65,7 @@ export default function ComingSoon() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <span className="text-gray-700 text-xs sm:text-xs">GDPR-trygt - Bygget på EU-standarder</span>
+                <span className="text-gray-700 text-xs sm:text-xs">GDPR-trygt – Lagret i EU, ingen tredjeparts trackere</span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
@@ -76,7 +73,7 @@ export default function ComingSoon() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <span className="text-gray-700 text-xs sm:text-xs">Én app, ulike profiler per gruppe</span>
+                <span className="text-gray-700 text-xs sm:text-xs">Kontroll per gruppe – vis telefonnummer i én, skjul i en annen</span>
               </div>
             </div>
           </div>
